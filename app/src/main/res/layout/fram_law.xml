@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/al_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:layout_gravity="center"
+        android:text="最高人民法院关于审理劳动争议案件适用法律的若干问题的解释》"
+        android:textColor="#227CCE"
+        android:textScaleX="1.1"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/al_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="100dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:textColor="#353548"
+        android:textScaleX="1.1"
+        android:text="\u3000\u3000为正确审理劳动争议案"
+        android:textSize="40dp" />
+
+
+</LinearLayout>

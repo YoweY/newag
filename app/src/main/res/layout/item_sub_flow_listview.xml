@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_gray_bg" />
+
+        <TextView
+            android:id="@+id/item_sub_flow_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="[向人民法院申请支付令]"
+            android:textColor="@color/line_xy_color"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_sub_flow_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="[向人民法院申请支付令]"
+        android:textColor="#0F80DC"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/item_sub_flow_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+       android:gravity="center_vertical"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="向人民调解委员会申请调解（不收取任何费用）（参考法条：《中华人民共和国人民调解法》第四条）"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+</LinearLayout>

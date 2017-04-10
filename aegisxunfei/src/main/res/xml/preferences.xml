@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<PreferenceCategory android:title="Second Category">
+        <EditTextPreference
+            android:key="eventArea"
+            android:defaultValue="中国"
+            android:title="eventArea"
+            />
+        <EditTextPreference
+            android:key="eventDetail"
+            android:defaultValue="描述"
+            android:title="eventDetail" />
+        <EditTextPreference
+            android:key="eventId"
+            android:defaultValue="123"
+            android:title="eventId" />
+        <EditTextPreference
+            android:key="gender"
+            android:defaultValue="123"
+            android:title="gender" />
+        <EditTextPreference
+            android:key="height"
+            android:defaultValue="123"
+            android:title="height" />
+        <EditTextPreference
+            android:key="hometown"
+            android:defaultValue="123"
+            android:title="hometown" />
+        <EditTextPreference
+            android:key="id"
+            android:defaultValue="123"
+            android:title="id" />
+        <EditTextPreference
+            android:key="name"
+            android:defaultValue="123"
+            android:title="name" />
+        <EditTextPreference
+            android:key="position"
+            android:defaultValue="123"
+            android:title="position" />
+        <EditTextPreference
+            android:key="time"
+            android:defaultValue="123"
+            android:title="time" />
+        <EditTextPreference
+            android:key="weight"
+            android:defaultValue="123"
+            android:title="weight" />
+    </PreferenceCategory>
+</PreferenceScreen>

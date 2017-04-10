@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/left_listView_bg"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_help_left"
+            android:layout_marginRight="@dimen/margin_help_right"
+            android:background="@color/item_title_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="如何提问?"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:background="@color/white"
+        android:paddingLeft="100dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/line_space"
+            android:text="提问题时请简明扼要的叙述案情并明确您的诉讼请求。 "
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/item_description_textSize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/line_space"
+            android:text="如：请求分割房产 请求子女抚养权 请求精神损害赔偿 请求共同承担债务等 "
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/item_description_textSize" />
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="15dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/icon_tips" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/line_space"
+                android:text="提问技巧：问题中的关键词很重要! "
+                android:textColor="@color/titleColor"
+                android:textSize="@dimen/item_description_textSize" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/line_space"
+            android:text="如：抚养权、共同财产、共同债务、工伤赔偿、利息过高、违约责任等。"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/item_description_textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/left_listView_bg"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_help_left"
+            android:layout_marginRight="@dimen/margin_help_right"
+            android:background="@color/item_title_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="关于法律程序与法律知识的区别 ?"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/line_space"
+            android:text="程序性问题是关于审判程序的问题，法律知识（实体性）问题是关于对实体权利的判决问题。比如民法、刑法、行政法，就是实体法，民事诉讼法、刑事诉讼法、行政诉讼法就是程序法。"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/item_description_textSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/left_listView_bg"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_help_left"
+            android:layout_marginRight="@dimen/margin_help_right"
+            android:background="@color/item_title_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="如何使用 ?"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="100dp"
+        android:background="@color/white"
+        android:paddingRight="100dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/line_space"
+            android:text="根据提示结合实际情况选择，点击查看结果。如果想继续了解其它情形相关的法律知识，点击继续选择，如果没有其它情形想了解，可以不选择，系统默认跳过"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/item_description_textSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/left_listView_bg"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_help_left"
+            android:layout_marginRight="@dimen/margin_help_right"
+            android:background="@color/item_title_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="如何追问 ?"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="100dp"
+        android:background="@color/white"
+        android:paddingRight="100dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/line_space"
+            android:text="如果想对同一问题进行补充追问，可以直接再语音输入关键词，如：财产分割、抚养费、工伤认定、工伤保险等..."
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/item_description_textSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/left_listView_bg"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_help_left"
+            android:layout_marginRight="@dimen/margin_help_right"
+            android:background="@color/item_title_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="如何再次提问 ?"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="100dp"
+        android:background="@color/white"
+        android:paddingRight="100dp"
+        android:paddingTop="10dp">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_marginRight="16dp"
+    android:gravity="center"
+    android:background="@mipmap/button_blue_circle_small"
+    android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/refresh" />
+</RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="点击刷新按钮进行再次提问。"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/item_description_textSize" />
+
+    </LinearLayout>
+</LinearLayout>

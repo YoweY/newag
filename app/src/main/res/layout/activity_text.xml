@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/chat_dialog_Relate"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/chat_dialog_img"
+                android:layout_width="100dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Tra"
+                android:src="@mipmap/jiqiren" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_toRightOf="@id/chat_dialog_img"
+                android:scrollbars="none">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="50dp"
+                    android:lineSpacingExtra="@dimen/line_space"
+                    android:text="以下是小法的回答，请查阅！"
+                    android:textColor="#353548"
+                    android:textScaleX="1.1"
+                    android:textSize="40dp" />
+            </ScrollView>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#B8B8B8" />
+
+        <ScrollView
+            android:id="@+id/chat_dialog_ScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:scrollbarSize="3dp"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbarThumbVertical="@drawable/gun"
+            android:scrollbarTrackVertical="@drawable/gundongtiao1">
+
+            <TextView
+                android:id="@+id/chat_dialog_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:lineSpacingExtra="@dimen/line_space"
+                android:text="1.司法工作人员对犯罪嫌疑人、
+            被告人实行刑讯逼供或者使用暴力逼取证人证言的构成故意伤害罪
+            2.监狱、拘留所、看守所等监管机构的监管人员对被监管人进行殴打或者体罚虐待，情节严重的构成故意伤害罪
+             3.监管人员指使被监管人殴打或者体罚虐待其他被监管人的构成故意伤害罪
+             4.聚众“打砸抢”，致人伤残的构成故意伤害罪 2.监狱、拘留所、看守所等监管机构的监管人员对被监管人进行殴打或者体罚虐待，情节严重的构成故意伤害罪
+             3.监管人员指使被监管人殴打或者体罚虐待其他被监管人的构成故意伤害罪
+             4.聚众“打砸抢”，致人伤残的构成故意伤害罪"
+                android:textColor="#353548"
+                android:textScaleX="1.1"
+
+                android:textSize="40dp" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#B8B8B8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/animationIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/waituoyuan"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/animationIV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/xiaoyuan"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/animationIV2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/animation1"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/shibeijing"
+                android:visibility="visible"
+                />
+            <ImageView
+                android:id="@+id/voiceBg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/Tra"
+                android:src="@mipmap/button_mic"
+                android:visibility="visible"
+                />
+
+            <RelativeLayout
+                android:id="@+id/mVoiceRelativeLayout"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/chat_dialog_read"
+            android:layout_width="558dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="171dp"
+            android:background="@mipmap/querenxuanzeanniu"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="阅读完毕(120s)"
+            android:textColor="#fff"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/result_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:contentDescription="@string/robot"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/robot" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="vertical"
+            android:background="@drawable/aaaa">
+
+            <TextView
+                android:id="@+id/id_result_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="小法为您找到以下结果："
+                android:textColor="#000000"
+                android:textSize="@dimen/title_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                />
+        <!--<ListView-->
+            <!--android:id="@+id/chat_laws_listView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:cacheColorHint="@android:color/transparent"-->
+            <!--android:listSelector="@android:color/transparent"-->
+            <!--android:divider="@android:color/transparent"-->
+            <!--android:scrollbars="none"/>-->
+            <LinearLayout
+                android:id="@+id/layoutChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e5e5e5"
+                />
+
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:voiceView="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_rectangle"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <aegis.aegisxunfei.voiceRecord.VoiceLineView
+            android:id="@+id/voicLine"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            voiceView:maxVolume="50"
+            voiceView:middleLine="@android:color/black"
+            voiceView:middleLineHeight="1dp"
+            voiceView:fineness="three"
+            voiceView:rectSpace="3dp"
+            voiceView:rectWidth="3dp"
+            voiceView:sensibility="four"
+            voiceView:viewMode="line"
+            voiceView:lineSpeed="50"
+            voiceView:voiceLine="#1e90ff" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/id_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="00:08"
+        android:textSize="30sp"
+        />
+    <RelativeLayout
+        android:id="@+id/id_voice_relay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/id_round_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/round_progress" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/maikefengduihua" />
+    </RelativeLayout>
+
+
+</LinearLayout>

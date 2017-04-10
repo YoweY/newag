@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/home_left_margin_largest"
+    android:layout_marginRight="@dimen/home_right_margin_largest"
+    android:background="@drawable/popuwindow_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_window_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:text="@string/low_info_name"
+            android:textColor="@color/law_item_title"
+            android:textSize="23dp" />
+
+        <ImageView
+            android:src="@mipmap/one"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_window_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@mipmap/falvfaguibiaoqian"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="登记在父母名下"
+        android:textColor="@color/law_item_flag"
+        android:textSize="@dimen/law_item_flag" />
+
+    <TextView
+        android:id="@+id/item_window_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/item_description_left"
+        android:layout_marginRight="@dimen/item_description_right"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:textColor="@color/law_item_content"
+        android:textSize="@dimen/law_item_content" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_bj"
+    android:id="@+id/id_rootView"
+    android:keepScreenOn="true">
+
+    <ImageView
+        android:id="@+id/sub_guide_GifImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/jiqiren"
+        />
+    <!--<TextView-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_marginBottom="340dp"-->
+        <!--android:layout_marginLeft="280dp"-->
+        <!--android:background="@drawable/paopao"-->
+        <!--android:gravity="start"-->
+        <!--android:lines="3"-->
+        <!--android:paddingLeft="35dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="5dp"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:text="请问您需要咨询哪一方面的问题?"-->
+        <!--android:textColor="#00aeee"-->
+        <!--android:textSize="20dp" />-->
+
+    <TextView
+        android:id="@+id/sub_guide_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="30dp"
+        android:text="程序引导"
+        android:textColor="#fff"
+        android:textSize="60dp" />
+
+    <RelativeLayout
+        android:id="@+id/sub_guide_one_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="80dp"
+       >
+
+        <ImageView
+            android:id="@+id/imgPosition1"
+            android:layout_width="264dp"
+            android:layout_height="264dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/positionimg1" />
+
+        <ImageView
+            android:id="@+id/mImg_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="140dp"
+            android:src="@mipmap/tiaojiedwen" />
+
+        <TextView
+            android:id="@+id/img_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:text="调解"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:textSize="54dp" />
+
+        <ImageView
+            android:id="@+id/imgPosition2"
+            android:layout_width="264dp"
+            android:layout_height="264dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/imgPosition1"
+            android:src="@mipmap/positionimg2" />
+
+        <ImageView
+            android:id="@+id/mImg_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="150dp"
+            android:layout_toRightOf="@id/imgPosition1"
+            android:src="@mipmap/liandiwen" />
+
+        <TextView
+            android:id="@+id/img_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/imgPosition1"
+            android:text="立案"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:textSize="54dp" />
+
+        <ImageView
+            android:id="@+id/imgPosition5"
+            android:layout_width="264dp"
+            android:layout_height="127dp"
+            android:layout_toRightOf="@id/imgPosition2"
+            android:src="@mipmap/positionimg5" />
+        <ImageView
+            android:id="@+id/mImg_content5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/imgPosition2"
+            android:src="@mipmap/zhixingdiwen" />
+
+        <TextView
+            android:id="@+id/img_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/imgPosition2"
+            android:text="执行"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:textSize="48dp" />
+
+             <ImageView
+            android:id="@+id/imgPosition6"
+            android:layout_width="264dp"
+            android:layout_height="127dp"
+            android:layout_marginTop="10dp"
+                 android:layout_below="@id/imgPosition5"
+            android:layout_toRightOf="@id/imgPosition2"
+            android:src="@mipmap/positionimg6" />
+        <ImageView
+            android:id="@+id/mImg_content6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_below="@id/imgPosition5"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/imgPosition2"
+            android:src="@mipmap/shangsudiwen"  />
+
+        <TextView
+            android:id="@+id/img_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/imgPosition5"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/imgPosition2"
+            android:text="上诉"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:textSize="48dp" />
+
+
+        <ImageView
+            android:id="@+id/imgPosition7"
+            android:layout_width="264dp"
+            android:layout_height="127dp"
+            android:layout_below="@id/imgPosition1"
+            android:src="@mipmap/positionimg7" />
+        <ImageView
+            android:id="@+id/mImg_content7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginTop="50dp"
+
+            android:src="@mipmap/baoquandiwen"  />
+
+        <TextView
+            android:id="@+id/img_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginTop="20dp"
+            android:text="保全"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:textSize="48dp" />
+
+
+        <ImageView
+            android:id="@+id/imgPosition3"
+            android:layout_width="264dp"
+            android:layout_height="264dp"
+            android:layout_below="@id/imgPosition2"
+            android:layout_toRightOf="@id/imgPosition7"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/positionimg3" />
+
+        <ImageView
+            android:id="@+id/mImg_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgPosition7"
+
+            android:layout_below="@id/imgPosition2"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="150dp"
+            android:src="@mipmap/kaitingdiwen" />
+
+        <TextView
+            android:id="@+id/img_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgPosition7"
+
+            android:layout_below="@id/imgPosition2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:text="开庭"
+            android:paddingRight="5dp"
+            android:textColor="#fff"
+            android:gravity="start"
+            android:textSize="54dp" />
+
+        <ImageView
+            android:id="@+id/imgPosition8"
+            android:layout_width="264dp"
+            android:layout_height="127dp"
+            android:layout_below="@id/imgPosition7"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/positionimg8" />
+
+        <ImageView
+            android:id="@+id/mImg_content8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgPosition7"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="60dp"
+            android:src="@mipmap/shenxiandiwen" />
+
+
+        <ImageView
+            android:id="@+id/imgPosition4"
+            android:layout_width="264dp"
+            android:layout_height="264dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imgPosition6"
+            android:layout_toRightOf="@id/imgPosition3"
+            android:src="@mipmap/positionimg4" />
+
+        <ImageView
+            android:id="@+id/mImg_content4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="150dp"
+            android:layout_below="@id/imgPosition6"
+            android:layout_toRightOf="@id/imgPosition3"
+            android:src="@mipmap/susongfeidiwen" />
+
+        <TextView
+            android:id="@+id/img_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/imgPosition6"
+            android:layout_toRightOf="@id/imgPosition3"
+            android:text="诉讼费"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:textSize="54dp" />
+
+        <TextView
+            android:id="@+id/img_text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="审限"
+            android:gravity="start"
+            android:paddingRight="10dp"
+            android:textColor="#fff"
+            android:textSize="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+           android:layout_below="@id/imgPosition7" />
+    </RelativeLayout>
+
+
+</FrameLayout>

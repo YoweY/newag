@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_bj"
+    android:id="@+id/id_rootView"
+    android:keepScreenOn="true">
+
+    <ImageView
+        android:id="@+id/sub_guide_GifImg"
+        android:layout_width="292px"
+        android:layout_height="382px"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/jiqiren"
+        />
+
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="340dp"
+        android:layout_marginLeft="280dp"
+        android:background="@drawable/paopao"
+        android:gravity="start"
+        android:lines="3"
+        android:paddingLeft="35dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="请问您需要咨询哪一方面的问题?"
+        android:textColor="#00aeee"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/sub_guide_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="120dp"
+        android:text="程序引导"
+        android:textColor="#fff"
+        android:textSize="60dp" />
+
+    <RelativeLayout
+        android:id="@+id/sub_guide_one_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/imgPosition1"
+            android:layout_width="311dp"
+            android:layout_height="311dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/position1" />
+
+        <ImageView
+            android:id="@+id/mImg_content1"
+            android:layout_width="205dp"
+            android:layout_height="182dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="120dp"
+            android:src="@mipmap/lian1" />
+
+        <TextView
+            android:id="@+id/sub_guide_one_text1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="立案侦查"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:textSize="54dp" />
+
+        <ImageView
+            android:id="@+id/imgPosition2"
+            android:layout_width="311dp"
+            android:layout_height="311dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/imgPosition1"
+            android:src="@mipmap/position2" />
+
+        <ImageView
+            android:id="@+id/mImg_content2"
+            android:layout_width="205dp"
+            android:layout_height="182dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="120dp"
+            android:layout_toRightOf="@id/imgPosition1"
+            android:src="@mipmap/chuoshi2" />
+
+        <TextView
+            android:id="@+id/sub_guide_one_text2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/imgPosition1"
+            android:text="强制措施"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:textSize="54dp" />
+
+        <ImageView
+            android:id="@+id/imgPosition3"
+            android:layout_width="311dp"
+            android:layout_height="311dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/position3" />
+
+        <ImageView
+            android:id="@+id/mImg_content3"
+            android:layout_width="223dp"
+            android:layout_height="218dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="90dp"
+            android:src="@mipmap/daibu3" />
+
+        <TextView
+            android:id="@+id/sub_guide_one_text3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="批捕\n决定逮捕"
+            android:paddingRight="5dp"
+            android:textColor="#fff"
+            android:gravity="start"
+            android:textSize="54dp" />
+
+        <ImageView
+            android:id="@+id/imgPosition4"
+            android:layout_width="149dp"
+            android:layout_height="149dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/imgPosition3"
+            android:src="@mipmap/position4" />
+
+        <ImageView
+            android:id="@+id/mImg_content4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/imgPosition3"
+            android:src="@mipmap/tebbiechengxu4" />
+
+        <TextView
+            android:id="@+id/sub_guide_one_text4"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imgPosition3"
+            android:text="特别程序"
+            android:gravity="start"
+            android:paddingRight="10dp"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imgPosition5"
+            android:layout_width="149dp"
+            android:layout_height="149dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_toRightOf="@id/imgPosition4"
+            android:src="@mipmap/position5" />
+
+        <ImageView
+            android:id="@+id/mImg_content5"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/imgPosition4"
+            android:src="@mipmap/jiandu5" />
+
+        <TextView
+            android:id="@+id/sub_guide_one_text5"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imgPosition4"
+            android:text="询问犯罪嫌疑人"
+            android:paddingRight="5dp"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imgPosition6"
+            android:layout_width="311dp"
+            android:layout_height="149dp"
+            android:layout_below="@id/imgPosition4"
+            android:layout_marginTop="10dp"
+
+            android:layout_toRightOf="@id/imgPosition3"
+            android:src="@mipmap/position6" />
+
+        <ImageView
+            android:id="@+id/mImg_content6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/imgPosition4"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/imgPosition3"
+            android:src="@mipmap/konggao6" />
+
+        <TextView
+
+            android:id="@+id/sub_guide_one_text6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgPosition4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/imgPosition3"
+            android:text="申诉举报控告"
+            android:gravity="start"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:textSize="32dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

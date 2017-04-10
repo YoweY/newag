@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<ListView
+    android:id="@+id/item_sub_flow_listView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:cacheColorHint="@android:color/transparent"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="@dimen/line_space"
+    android:listSelector="@android:color/transparent"
+    android:scrollbars="none"/>
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/item_sub_flow_pager_framlayout"-->
+        <!--android:layout_height="match_parent"/>-->
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/item_evidence_ll1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="80dp"
+        android:gravity="right"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_evidence_text1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:textColor="@color/evi_item_content"
+            android:textSize="@dimen/evi_item_content" />
+
+        <TextView
+            android:id="@+id/item_evidence_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="@mipmap/zhengjufenxixuxian"
+            android:text="292"
+            android:gravity="center"
+            android:textColor="@color/evi_item_title"
+            android:textSize="@dimen/evi_item_flag" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="采信率"
+            android:textColor="@color/evi_item_title"
+            android:textSize="@dimen/evi_item_little"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_evidence_ll2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="100dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_evidence_text2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textColor="@color/evi_item_content"
+            android:textSize="@dimen/evi_item_content" />
+
+        <TextView
+            android:id="@+id/item_evidence_num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:background="@mipmap/zhengjufenxixuxian"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="192"
+            android:textColor="@color/evi_item_title"
+            android:textSize="@dimen/evi_item_flag" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="采信率"
+            android:textColor="@color/evi_item_title"
+            android:textSize="@dimen/evi_item_little"/>
+
+    </LinearLayout>
+</LinearLayout>

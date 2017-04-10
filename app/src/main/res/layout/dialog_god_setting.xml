@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+        <CheckBox
+            android:id="@+id/id_show_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="演示模式"
+            android:textSize="17sp"
+            />
+        <CheckBox
+            android:id="@+id/id_god_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="17sp"
+            android:text="上帝模式"
+            />
+
+</LinearLayout>

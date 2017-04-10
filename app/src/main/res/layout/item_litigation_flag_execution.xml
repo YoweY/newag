@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_sub_flow_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_gray_bg" />
+
+        <TextView
+            android:id="@+id/item_sub_flow_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="强制执行"
+            android:textColor="@color/line_xy_color"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_flow_template1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="[执行申请书]"
+            android:textColor="#0F80DC"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/item_flow_template2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="[执行异议书]"
+            android:textColor="#0F80DC"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_sub_flow_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="（1）执行条件：发生效力的民事判决、裁定。"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="（2）申请法院：第一审人民法院或者与第一审人民法院同级的被执行的财产所在地人民法院。人民法院自收到申请执行书之日起超过六个月未执行的，申请执行人可以向上一级人民法院申请执行。 "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="（3）申请期间：申请执行的期间为二年。从法律文书规定履行期间的最后一日起计算；法律文书规定分期履行的，从规定的每次履行期间的最后一日起计算；法律文书未规定履行期间的，从法律文书生效之日起计算。 "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="（4）执行异议：当事人、利害关系人认为执行行为违反法律规定的，可以向负责执行的人民法院提出书面异议。"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text=" （参考法条：《中华人民共和国民事诉讼法》第二百二十四条、第二百二十五条、第二百二十六条、第二百三十九条）"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:banner="http://schemas.android.com/apk/res-auto"
+    android:keepScreenOn="true"
+    >
+    <!--<com.info.aegis.lawpush4android.utils.banner.SimpleImageBanner-->
+        <!--android:id="@+id/sib_anim"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--banner:bb_scale="0.7"-->
+        <!--banner:bb_indicatorSelectColor= "#16a5af"-->
+        <!--banner:bb_barPaddingBottom = "40dp"-->
+
+        <!--/>-->
+</LinearLayout>

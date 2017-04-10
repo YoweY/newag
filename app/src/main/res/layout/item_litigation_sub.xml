@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_litigation_current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_round_bg" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:text="您当前的诉讼请求是:"
+            android:textColor="@color/lit_item_title"
+            android:textSize="@dimen/lit_item_title" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_litigation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:text="(请求支付损害赔偿)"
+        android:textColor="@color/law_item_content"
+        android:textSize="@dimen/lit_item_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/item_litigation_img_support"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:src="@mipmap/zhichilv" />
+
+            <TextView
+                android:id="@+id/item_litigation_text_support"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_litigation_img_support"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:paddingLeft="10dp"
+                android:text="支持60%"
+                android:textColor="@color/lit_item_left_flag"
+                android:textSize="26dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ProgressBar
+                android:id="@+id/item_litigation_progressBar"
+                style="@style/StyleProgressBarMini"
+                android:layout_width="612dp"
+                android:layout_height="15dp"
+                android:layout_margin="@dimen/margin_normal"
+                android:background="@drawable/shape_progressbar_bg"
+                android:max="100"
+                android:progress="60"
+                />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="612dp"
+                android:layout_height="15dp"
+                android:layout_margin="@dimen/margin_normal"
+                android:max="100"
+                android:maxHeight="21dp"
+                android:minHeight="21dp"
+                android:progress="100"
+                android:progressDrawable="@drawable/seekbar_bg"
+                android:thumb="@drawable/thumb" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/item_litigation_img_reject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/bohuilv" />
+
+            <TextView
+                android:id="@+id/item_litigation_text_reject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_litigation_img_reject"
+                android:layout_marginLeft="@dimen/margin_middle"
+                android:layout_marginRight="@dimen/margin_middle"
+                android:text="40%"
+                android:textColor="@color/lit_item_right_flag"
+                android:textSize="26dp"  />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E9EBED" />
+
+
+    <LinearLayout
+        android:id="@+id/item_litigation_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_round_bg" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:text="类案中可能涉及的其它诉讼请求支持率"
+            android:textColor="@color/lit_item_title"
+            android:textSize="@dimen/lit_item_title" />
+    </LinearLayout>
+
+
+</LinearLayout>

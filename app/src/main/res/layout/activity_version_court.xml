@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/maoboli"
+    android:gravity="center"
+    android:keepScreenOn="true">
+
+    <RelativeLayout
+        android:id="@+id/guide_dialog_top_RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginTop="-20dp">
+
+        <ImageView
+            android:id="@+id/sub_guide_GifImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="162dp"
+            android:src="@drawable/xiaofajiqiren" />
+
+        <TextView
+            android:id="@+id/guide_dialog_text"
+            android:layout_width="850dp"
+            android:layout_height="130dp"
+            android:layout_toRightOf="@id/sub_guide_GifImg"
+            android:background="@mipmap/jiqirenduihuakuangbj"
+            android:gravity="center"
+            android:lines="2"
+            android:paddingBottom="5dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="50dp"
+            android:paddingTop="5dp"
+            android:text="为您提供以下服务，如果您还有问题， 请直接和我对话。"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide_dialog_top_RelativeLayout"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/imgPosition1"
+            android:layout_width="265dp"
+            android:layout_height="265dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/mylian" />
+
+        <TextView
+            android:id="@+id/id_textPosition1"
+            android:layout_width="218dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="65dp"
+            android:text="我要立案"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            />
+        <ImageView
+            android:id="@+id/imgPosition2"
+            android:layout_width="265dp"
+            android:layout_height="265dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/imgPosition1"
+            android:src="@mipmap/mytiaojie" />
+
+        <TextView
+            android:id="@+id/id_textPosition2"
+            android:layout_width="218dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="65dp"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:text=""
+            android:layout_toRightOf="@id/imgPosition1"
+            />
+        <ImageView
+            android:id="@+id/imgPosition3"
+            android:layout_width="265dp"
+            android:layout_height="265dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/imgPosition2"
+            android:src="@mipmap/myshangsu" />
+
+        <TextView
+            android:id="@+id/id_textPosition3"
+            android:layout_width="218dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="65dp"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:layout_toRightOf="@id/imgPosition2"
+            />
+        <ImageView
+            android:id="@+id/imgPosition4"
+            android:layout_width="265dp"
+            android:layout_height="265dp"
+            android:layout_toRightOf="@id/imgPosition3"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/myzhixing" />
+
+        <TextView
+            android:id="@+id/id_textPosition4"
+            android:layout_width="211dp"
+            android:layout_height="114dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="65dp"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:layout_toRightOf="@id/imgPosition3"
+            />
+        <ImageView
+            android:id="@+id/imgPosition5"
+            android:layout_width="265dp"
+            android:layout_height="265dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/mychat" />
+
+        <ImageView
+            android:layout_width="218dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/imgPosition1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:src="@mipmap/textchat" />
+        ?<!---->
+        <ImageView
+            android:id="@+id/imgPosition6"
+            android:layout_width="265dp"
+            android:layout_height="265dp"
+            android:layout_below="@id/imgPosition2"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/imgPosition5"
+            android:src="@mipmap/myzhuanjia" />
+
+        <ImageView
+            android:layout_width="218dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/imgPosition2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/imgPosition5"
+            android:src="@mipmap/textfalv" />
+        ?<!---->
+        <ImageView
+            android:id="@+id/imgPosition7"
+            android:layout_width="265dp"
+            android:layout_height="265dp"
+            android:layout_below="@id/imgPosition3"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/imgPosition6"
+            android:src="@mipmap/myfatiao" />
+
+        <ImageView
+            android:layout_width="218dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/imgPosition3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/imgPosition6"
+            android:src="@mipmap/textfatiao" />
+        ?<!---->
+        <ImageView
+            android:id="@+id/imgPosition8"
+            android:layout_width="265dp"
+            android:layout_height="265dp"
+            android:layout_below="@id/imgPosition4"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/imgPosition7"
+            android:src="@mipmap/myqita" />
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/imgPosition4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/imgPosition7"
+            android:src="@mipmap/textqita" />
+
+        <TextView
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="点击口述 其他情形"
+            android:textColor="@color/white"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@id/imgPosition7"
+            android:layout_below="@id/imgPosition4"
+            android:textSize="32dp"/>
+        ?<!---->
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 画面背景色 -->
+
+    <!-- 分割线背景色 -->
+
+    <color name="white">#FFFFFF</color>
+
+    <!-- 控件按下时显示的颜色 -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Tra">#00000000</color>
+
+    <!--大数据分析页资源数据-->
+    <color name="black">#000000</color>
+
+    <color name="text_deep">#36444E</color>
+    <color name="menu_item_text_color">#E60200</color>
+    <color name="hrColor">#DADADA</color>
+
+    <color name="titleColor">#111111</color>
+
+    <color name="menu_bg_text">#414755</color>
+    <color name="item_description" tools:ignore="UnusedResources">#111111</color>
+    <color name="item_title_bg">#227CCE</color>
+    <color name="item_left_text">#168DD9</color>
+    <color name="item_right_text">#D9131C</color>
+
+    <color name="left_listView_bg">#F5F5F5</color>
+    <color name="line_xy_color">#484848</color>
+    <color name="text_color_38">#383838</color>
+    <color name="button_pressed_true_bg">#0F80DC</color>
+    <color name="button_pressed_false_bg">#CBCBCB</color>
+
+    <!-- 聊天页面的状态选择-->
+    <color name="item_chat_normal">#999999</color>
+    <color name="item_chat_select">#34A7BC</color>
+
+    <!--内容页面-->
+
+    <color name="item_text_bg">#0078DA</color>
+    <!-- 法律法规-->
+    <color name="law_item_title">#0078DA</color>
+    <color name="law_item_flag">#EF4300</color>
+    <color name="law_item_content">#393939</color>
+    <!-- 诉讼请求-->
+    <color name="lit_item_title">#0078DA</color>
+    <color name="lit_item_left_flag">#0078DA</color>
+    <color name="lit_item_right_flag">#DC4300</color>
+    <color name="lit_item_content">#393939</color>
+    <color name="lit_item_left_num">#413E3C</color>
+
+    <color name="lit_item_bg">#0078DA</color>
+    <!-- 证据分析-->
+    <color name="evi_item_title">#0078DA</color>
+    <color name="evi_item_content">#393939</color>
+    <!-- 相关案例-->
+    <color name="case_item_title">#0078DA</color>
+    <color name="case_item_flag">#F5F5F5</color>
+    <color name="case_item_content">#434343</color>
+    <!-- 司法观点-->
+    <color name="point_item_title">#0078DA</color>
+    <!-- 诉讼成本-->
+    <color name="cost_item_title">#0078DA</color>
+    <color name="cost_item_content">#383838</color>
+    <!-- 诉讼流程-->
+    <color name="flow_item_title_bg">#0F80DC</color>
+    <color name="flow_item_title_normal">#CBCBCB</color>
+    <color name="flow_item_flag_text_normal">#383838</color>
+    <color name="flow_item_flag_text_bg">#f5f5f5</color>
+    <!--对话框-->
+    <color name="dialog_select_no">#202B37</color>
+    <color name="dialog_select_yes">#1683FF</color>
+    <color name="dialog_choose_yes">#2F90FF</color>
+    <color name="choose_text">#353548</color>
+    <color name="red_square">#f0f</color>
+<!--聊天页面顶部颜色-->
+    <color name="Chat_select">#028DFF</color>
+    <color name="Chat_normal">#ffffff</color>
+
+
+    <color name="RoundFillColor">#45C3E5</color>
+    <color name="TimeTextColor">#FF84AD</color>
+    <color name="RoundHintTextColor">#666666</color>
+    <color name="RoundColor">#DAF6FE</color>
+</resources>

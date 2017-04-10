@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+
+        <ImageView
+            android:id="@+id/id_imgType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/falvfagui"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/id_textType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="法律法规"
+            android:textColor="#227CCE"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <View
+            android:id="@+id/id_sub_view"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#0078DA"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/id_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="@dimen/title_size"
+            android:layout_marginLeft="10dp"
+            android:maxEms="18"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="《最高人命发运水电费防守打sdfsdfsdfsdfsdfsd法范德萨发发发发发》"
+            android:textStyle="normal"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="2"
+        android:lines="2"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+       android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/item_chat_normal"
+        android:textSize="@dimen/content_size"
+        />
+</LinearLayout>

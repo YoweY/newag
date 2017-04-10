@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/home_left_margin_largest"
+        android:layout_marginRight="@dimen/home_right_margin_largest"
+        android:id="@+id/item_lowInfo_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/item_img"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="@dimen/item_img_left"
+                android:layout_marginRight="@dimen/item_img_right"
+                android:layout_marginBottom="@dimen/item_img_bottom"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/shape_round_bg" />
+
+            <TextView
+                android:id="@+id/item_lowInfo_name"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="@string/low_info_name"
+                android:textColor="@color/law_item_title"
+                android:textSize="@dimen/item_name_txtSize" />
+
+            <TextView
+                android:id="@+id/item_lowInfo_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@mipmap/falvfaguibiaoqian"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="登记在父母名下"
+                android:textColor="@color/law_item_flag"
+                android:textSize="@dimen/law_item_flag"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/item_lowInfo_content"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginLeft="@dimen/item_description_left"
+            android:layout_marginRight="@dimen/item_description_right"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="@dimen/line_space"
+            android:textColor="@color/law_item_content"
+            android:textSize="@dimen/law_item_content"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

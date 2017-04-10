@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_case_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/left_listView_bg"
+        android:layout_marginBottom="@dimen/home_item_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_width="@dimen/img_width"
+            android:layout_height="@dimen/img_height"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/home_title_margin_img_right"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:src="@mipmap/icon4_blue" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/home_title_margin_text_top"
+            android:layout_marginTop="@dimen/home_title_margin_text_top"
+            android:gravity="center_vertical"
+            android:text="@string/item_case"
+            android:textColor="@color/item_text_bg"
+            android:textSize="@dimen/item_title" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/item_point_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="暂无"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/case_item_content"
+        android:textSize="@dimen/case_item_content"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:id="@+id/item_case_point_linear"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/home_item_margin"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_big"
+                android:background="@drawable/shape_button_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="指导案例"
+                android:textColor="@color/case_item_flag"
+                android:textSize="@dimen/case_item_flag" />
+
+            <TextView
+
+                android:id="@+id/item_case_point_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:text="@string/point_name"
+                android:textColor="@color/case_item_title"
+                android:textSize="@dimen/case_item_title" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_gray_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="[裁判要旨]"
+                android:textColor="@color/line_xy_color"
+                android:textSize="@dimen/case_item_content"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_case_point_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="55dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="@dimen/line_space"
+            android:maxLines="4"
+            android:text="@string/low_info_description"
+            android:textColor="@color/case_item_content"
+            android:textSize="@dimen/case_item_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/item_case_fail_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/home_item_margin"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_fill_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="败诉案例"
+                android:textColor="@color/case_item_flag"
+                android:textSize="@dimen/case_item_flag" />
+
+            <TextView
+                android:id="@+id/item_case_fill_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:text="@string/fill_name"
+                android:textColor="@color/case_item_title"
+                android:textSize="@dimen/case_item_title" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_gray_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="[败诉原因]"
+                android:textColor="@color/case_item_content"
+                android:textSize="@dimen/case_item_content"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_case_fill_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="55dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:text="举证不力、欠缺法律依据"
+            android:textColor="@color/case_item_content"
+            android:textSize="@dimen/case_item_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item_case_success_linear"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/home_item_margin"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_success_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="精选案例"
+                android:textColor="@color/case_item_flag"
+                android:textSize="@dimen/case_item_flag" />
+
+            <TextView
+                android:id="@+id/item_case_success_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:text="@string/success_name"
+                android:textColor="@color/case_item_title"
+                android:textSize="@dimen/case_item_title" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_gray_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="[案例详情]"
+                android:textColor="@color/case_item_content"
+                android:textSize="@dimen/case_item_content"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/item_case_success_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="55dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:lineSpacingExtra="@dimen/line_space"
+            android:textColor="@color/case_item_content"
+            android:textSize="@dimen/case_item_content" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+

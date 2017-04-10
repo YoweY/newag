@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/home_item_margin"
+        android:background="@color/left_listView_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="@dimen/home_title_margin_img_size"
+            android:layout_height="@dimen/home_title_margin_img_size"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="@dimen/home_title_margin_img_right"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:src="@mipmap/icon3_blue" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/home_title_margin_text_top"
+            android:layout_marginTop="@dimen/home_title_margin_text_top"
+            android:gravity="center_vertical"
+            android:text="@string/evidence"
+            android:textColor="@color/item_text_bg"
+            android:textSize="@dimen/item_title" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/item_evidence_linear_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_round_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您在本案中应该准备如下证据："
+            android:textColor="@color/evi_item_title"
+            android:textSize="@dimen/evi_item_title" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_evidence_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="暂无"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/evi_item_content"
+        android:textSize="@dimen/evi_item_title"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/listView_evidence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/item_evidence_linear_bot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_gray_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginTop="5dp"
+            android:text="没有证据或证据不足会导致负有举证责任的当事人承担举证不能的不利后果。"
+            android:textColor="@color/evi_item_content"
+            android:textSize="@dimen/evi_item_bottom" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/home_item_margin"
+        android:gravity="center"
+        android:background="@color/left_listView_bg"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_width="@dimen/img_width"
+            android:layout_height="@dimen/img_height"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/home_title_margin_img_right"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:src="@mipmap/icon5_blue" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/home_title_margin_text_top"
+            android:layout_marginTop="@dimen/home_title_margin_text_top"
+            android:gravity="center_vertical"
+            android:text="@string/point"
+            android:textColor="@color/item_text_bg"
+            android:textSize="@dimen/item_title" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_point_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="暂无"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/case_item_content"
+        android:textSize="@dimen/case_item_content"
+        android:visibility="gone"/>
+    <ListView
+        android:id="@+id/listView_point"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:scrollbars="none" />
+</LinearLayout>

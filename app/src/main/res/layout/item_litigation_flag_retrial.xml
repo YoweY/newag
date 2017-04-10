@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_sub_flow_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_gray_bg" />
+
+        <TextView
+            android:id="@+id/item_sub_flow_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="民事再审申请书"
+            android:textColor="@color/line_xy_color"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_flow_template"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="[民事再审申请书（申请再审用）]"
+        android:textColor="#0F80DC"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/item_sub_flow_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="（1）申请再审情形：  "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="①有新的证据，足以推翻原判决、裁定的；"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="②原判决、裁定认定的基本事实缺乏证据证明的； "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="③原判决、裁定认定事实的主要证据是伪造的； "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="④原判决、裁定认定事实的主要证据未经质证的；"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="⑤对审理案件需要的主要证据，当事人因客观原因不能自行收集，书面申请人民法院调查收集，人民法院未调查收集的； "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="⑥原判决、裁定适用法律确有错误的；"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="⑦审判组织的组成不合法或者依法应当回避的审判人员没有回避的； "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="⑧无诉讼行为能力人未经法定代理人代为诉讼或者应当参加诉讼的当事人，因不能归责于本人或者其诉讼代理人的事由，未参加诉讼的； "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="⑨违反法律规定，剥夺当事人辩论权利的； "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="⑩未经传票传唤，缺席判决的；"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="⑪原判决、裁定遗漏或者超出诉讼请求的；"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="⑫据以作出原判决、裁定的法律文书被撤销或者变更的；"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="⑬审判人员审理该案件时有贪污受贿，徇私舞弊，枉法裁判行为的。 "
+        android:textColor="#383838"
+        android:textSize="24sp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="（2）当事人对已经发生法律效力的解除婚姻关系的判决、调解书，不得申请再审。"
+        android:textColor="#383838"
+        android:textSize="24sp" />   <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="（3）当事人申请再审的，应当提交再审申请书等材料。 "
+        android:textColor="#383838"
+        android:textSize="24sp" />   <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="（4）当事人申请再审，应当在判决、裁定发生法律效力后六个月内提出。 （参考法条：《中华人民共和国民事诉讼法》第二百条、第二百零二条、第二百零三条、第二百零五条））"
+        android:textColor="#383838"
+        android:textSize="24sp" />
+</LinearLayout>

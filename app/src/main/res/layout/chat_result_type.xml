@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/result_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:contentDescription="@string/robot"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/robot" />
+
+        <LinearLayout
+            android:id="@+id/check_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="vertical"
+            android:background="@drawable/aaaa">
+
+            <TextView
+                android:id="@+id/id_result_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小法为您找到以下结果："
+                android:textColor="#000000"
+                android:textSize="@dimen/title_size"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#028DFF"
+                />
+            <LinearLayout
+                android:id="@+id/left_layout55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/item_result_rl"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@mipmap/yemeidaohang"
+                android:gravity="center"
+                >
+                <ImageView
+
+                    android:id="@+id/img_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/rightimg"/>
+                <TextView
+                    android:id="@+id/id_getMoreInfo"
+                    android:layout_toRightOf="@id/img_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点击查看完整咨询报告"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/result_type_text_size"
+                    />
+                <ImageView
+
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/id_getMoreInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/leftimg"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+</LinearLayout>

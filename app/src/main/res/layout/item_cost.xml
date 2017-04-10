@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/home_item_margin"
+        android:background="@color/left_listView_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/home_title_margin_img_size"
+            android:layout_height="@dimen/home_title_margin_img_size"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="@dimen/home_title_margin_img_right"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:src="@mipmap/icon6_blue" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/home_title_margin_text_top"
+            android:layout_marginTop="@dimen/home_title_margin_text_top"
+            android:gravity="center_vertical"
+            android:text="@string/item_cost"
+            android:textColor="@color/item_title_bg"
+            android:textSize="@dimen/item_title_textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_gray_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="[时间成本分析]"
+            android:textColor="@color/cost_item_content"
+            android:textSize="@dimen/cost_item_content"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="80dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="\u3000\u3000经计算该案件一审普通程序所需时间平均周期为3个月，一审简易程序平均周期为45天，二审程序所需时间平均周期为2个月当事人在法院的主持调解下达成协议随时可以结案。"
+        android:textColor="@color/cost_item_content"
+        android:textSize="@dimen/cost_item_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_gray_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="[调解成本分析]"
+            android:textColor="@color/cost_item_content"
+            android:textSize="@dimen/cost_item_content"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="80dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="\u3000\u3000在法院主持下调解结案，只收取一半诉讼费用。"
+        android:textColor="@color/cost_item_content"
+        android:textSize="@dimen/cost_item_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_gray_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="[经济成本分析]"
+            android:textColor="@color/cost_item_content"
+            android:textSize="@dimen/cost_item_content"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="80dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="\u3000\u3000影响律师收费的因素有地区、律师资历、案件类型及难易程度等，律师收费标准仅供参考，具体收费请咨询相关律师。"
+        android:textColor="@color/cost_item_content"
+        android:textSize="@dimen/cost_item_content" />
+
+    <LinearLayout
+android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_point_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="[解决纠纷推荐途径]"
+            android:textColor="@color/cost_item_title"
+            android:textSize="@dimen/cost_item_title"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="80dp"
+        android:lineSpacingExtra="@dimen/line_space"
+        android:text="\u3000\u3000综上所诉：如选择通过诉讼形式解决纠纷，当事人需要多方位考虑付出的精力、人力成本，可能承担的败诉风险的可能性。建议您最好通过调解的形式或者私下协商形式解决纠纷。"
+        android:textColor="@color/cost_item_content"
+        android:textSize="@dimen/cost_item_content" />
+
+</LinearLayout>
